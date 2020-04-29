@@ -23,4 +23,16 @@ body {
     font-size:.85em;
     font-family:Cambria,Georgia,"Book Antiqua",serif
 }
+a:link {  
+    color:grey;  
+}
+a:visited {
+    color:rgb(94, 19, 129);
+}
+a:hover {
+    color:lightgray;
+}
+a:active {
+    color:rgb(94, 19, 129);
+}
 /* I know that these rules are a little basic but I actually kinda like the look of the website right now. It's simplistic but calming */

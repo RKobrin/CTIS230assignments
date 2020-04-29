@@ -5,15 +5,22 @@ h2 {
     color:rgb(94, 19, 129); 
     background-color:lightgray; 
     width: fit-content;
+    font-family:"Franklin Gothic Medium";
 }
 h1 {
     color:rgb(94, 19, 129);
     background-color: lightgray;
     width:fit-content;
+    font-family:"Arial Black";
 }
 strong {
     background-color:lightgray;
+    font-weight:700;
+    font-style:normal; /* I had it at italic but I hated how it looked. */
 }
 body {
     background-color:whitesmoke;
+    font-size:.85em;
+    font-family:Cambria,Georgia,"Book Antiqua",serif
 }
+/* I know that these rules are a little basic but I actually kinda like the look of the website right now. It's simplistic but calming */

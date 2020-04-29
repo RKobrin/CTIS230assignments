@@ -2,8 +2,18 @@ body {
     color:black;  
 }
 h2 {  
-    color:rgb(94, 19, 129);  
+    color:rgb(94, 19, 129); 
+    background-color:lightgray; 
+    width: fit-content;
 }
 h1 {
-    color:rgb(94, 19, 129)
+    color:rgb(94, 19, 129);
+    background-color: lightgray;
+    width:fit-content;
+}
+strong {
+    background-color:lightgray;
+}
+body {
+    background-color:whitesmoke;
 }

@@ -82,5 +82,25 @@ div.secondpick{
     border-right-style:dashed;
     border-color:black;
 }
+header.flexible{
+    display:flex;
+}
+header.content{
+    border-style:solid;
+    padding-left:0.25em;
+    padding-right:0.25em;
+    padding-top:0.25em;
+    padding-bottom:0.25em;
+}
+footer.flexible{
+    display:flex;
+}
+footer.content{
+    border-style:solid;
+    padding-left:0.25em;
+    padding-right:0.25em;
+    padding-top:0.25em;
+    padding-bottom:0.25em;
+}
 
 /* I know that these rules are a little basic but I actually kinda like the look of the website right now. It's simplistic but calming */

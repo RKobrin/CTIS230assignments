@@ -1,11 +1,23 @@
 body {  
-    color:black;  
+    color:black; 
+    margin-top:1em;
+    margin-bottom:1em;
+    margin-left:0.5em;
+    margin-right:0.5em; 
 }
 h1,h2 {
     color:rgb(94, 19, 129);
     background-color: lightgray;
-    width:fit-content;
     font-family:"Arial Black";
+    margin-left:0.1em;
+}
+h1{
+    width: 25em;
+}
+h2{
+    width:fit-content;
+    padding-top:0.1em;
+    padding-bottom:0.1em;
 }
 strong {
     background-color:lightgray;
@@ -44,4 +56,28 @@ img#Reagor{
 img#statefinals{
     width:50%;
 }
+div.firstpick{
+    padding-bottom:0.2em;
+    padding-top:0.2em;
+    padding-left:0.2em;
+    padding-right:0.2em;
+    border-top-style:solid;
+    border-bottom-style:solid;
+    border-left-style:dashed;
+    border-right-style:dashed;
+    border-color:black;
+    margin-bottom:1.5em;
+}
+div.secondpick{
+    padding-bottom:0.2em;
+    padding-top:0.2em;
+    padding-left:0.2em;
+    padding-right:0.2em;
+    border-top-style:solid;
+    border-bottom-style:solid;
+    border-left-style:dashed;
+    border-right-style:dashed;
+    border-color:black;
+}
+
 /* I know that these rules are a little basic but I actually kinda like the look of the website right now. It's simplistic but calming */

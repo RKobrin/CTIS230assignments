@@ -1,13 +1,7 @@
 body {  
     color:black;  
 }
-h2 {  
-    color:rgb(94, 19, 129); 
-    background-color:lightgray; 
-    width: fit-content;
-    font-family:"Franklin Gothic Medium";
-}
-h1 {
+h1,h2 {
     color:rgb(94, 19, 129);
     background-color: lightgray;
     width:fit-content;
@@ -34,5 +28,20 @@ a:hover {
 }
 a:active {
     color:rgb(94, 19, 129);
+}
+li strong{
+    color:rgb(94, 19, 129);
+}
+p.pick{
+    font-weight:700;
+}
+p.analysis{
+    font-weight:500;
+}
+img#Reagor{
+    width:50%;
+}
+img#statefinals{
+    width:50%;
 }
 /* I know that these rules are a little basic but I actually kinda like the look of the website right now. It's simplistic but calming */

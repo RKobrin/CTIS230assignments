@@ -54,7 +54,7 @@ img#Reagor{
     width:50%;
 }
 img#statefinals{
-    width:50%;
+    width:25%;
     float:right;
     border-style:solid;
     margin-left:1em;
@@ -101,7 +101,7 @@ footer.content{
     padding-right:0.25em;
     padding-top:0.25em;
     padding-bottom:0.25em;
-    margin-top:2em;
+    margin-top:5em;
 }
 
 /* I know that these rules are a little basic but I actually kinda like the look of the website right now. It's simplistic but calming */

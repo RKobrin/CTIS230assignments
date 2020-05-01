@@ -55,6 +55,9 @@ img#Reagor{
 }
 img#statefinals{
     width:50%;
+    float:right;
+    border-style:solid;
+    margin-left:1em;
 }
 div.firstpick{
     padding-bottom:0.2em;

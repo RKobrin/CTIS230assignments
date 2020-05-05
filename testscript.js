@@ -1,0 +1,15 @@
+myitem = document.getElementById("firsttest");
+//This is the line that links our JS to our HTML by creating an item and grabbing elements with the ID "firsttest" from our HTML file into this item
+myitem.addEventListener("click", onClick);
+//This is the line that tells the computer to look for a click on any element that is contained without our item (elements id'd with "firsttest")
+function onClick() {  
+    myitem.style.color = "rgb(94, 19, 129)";  
+    // function onClick tells the computer that we want something to happen when myItem is clicked on
+    //Anything within this function is applied to myItem when it is clicked
+    myitem.style.backgroundColor = "grey";
+}
+myitem.addEventListener("mouseout", mouseout);
+function mouseout() {
+    myitem.style.color = "";
+    myitem.style.backgroundColor = "";
+}

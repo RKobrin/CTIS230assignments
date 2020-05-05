@@ -92,6 +92,17 @@ header.content{
     padding-top:0.25em;
     padding-bottom:0.25em;
 }
+div.flexible{
+    display:flex;
+}
+div.content{
+    border-style:solid;
+    padding-left:0.25em;
+    padding-right:0.25em;
+    padding-top:0.25em;
+    padding-bottom:0.25em;
+    margin-top:5em;
+}
 footer.flexible{
     display:flex;
 }
@@ -101,7 +112,6 @@ footer.content{
     padding-right:0.25em;
     padding-top:0.25em;
     padding-bottom:0.25em;
-    margin-top:5em;
 }
 
 /* I know that these rules are a little basic but I actually kinda like the look of the website right now. It's simplistic but calming */

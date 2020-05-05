@@ -13,3 +13,17 @@ function mouseout() {
     myitem.style.color = "";
     myitem.style.backgroundColor = "";
 }
+//Button Testing Below
+thebutton = document.getElementById("thebutton");  
+otheritem = document.getElementById("buttontest");
+thebutton.addEventListener("click", onButtonClick);
+function onButtonClick() {  
+    otheritem.style.color = "rgb(94, 19, 129)";  
+}
+//My Button Testing Below
+mybutton = document.getElementById("mybutton");
+thetext = document.getElementById("mybuttontest");
+mybutton.addEventListener("click", onButtonClick2);
+function onButtonClick2() {
+    thetext.style.color ="rgb(94, 19, 129)";
+}

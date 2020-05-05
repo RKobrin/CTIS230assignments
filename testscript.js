@@ -27,10 +27,18 @@ mybutton.addEventListener("click", onButtonClick2);
 function onButtonClick2() {
     thetext.style.color ="rgb(94, 19, 129)";
 }
+//Text Box Testing Below
 textentry = document.getElementById("myinput"); 
 yourtext = document.getElementById("yourtext"); 
 textentry.addEventListener("change", onChange);
 function onChange() {  
     newtext = myinput.value;  
    yourtext.innerHTML = newtext;  
+}
+//Third Button Testing Below
+thirdbutton = document.getElementById("normal");
+thirdbutton.addEventListener("click", onButtonClick3);
+function onButtonClick3() {
+    thetext.style.color = "black";
+    otheritem.style.color = "black";
 }

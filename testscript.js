@@ -27,3 +27,10 @@ mybutton.addEventListener("click", onButtonClick2);
 function onButtonClick2() {
     thetext.style.color ="rgb(94, 19, 129)";
 }
+textentry = document.getElementById("myinput"); 
+yourtext = document.getElementById("yourtext"); 
+textentry.addEventListener("change", onChange);
+function onChange() {  
+    newtext = myinput.value;  
+   yourtext.innerHTML = newtext;  
+}

@@ -139,7 +139,11 @@ footer.content{
 }
 @media screen and (orientation: landscape) {
     h1{
-        width:15em;
+        width:fit-content;
+        text-align:center;
+    }
+    div.Reagor{
+        text-align:center;
     }
 }
 @media screen and (orientation: portrait) {

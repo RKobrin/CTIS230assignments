@@ -42,3 +42,4 @@ function onButtonClick3() {
     thetext.style.color = "black";
     otheritem.style.color = "black";
 }
+

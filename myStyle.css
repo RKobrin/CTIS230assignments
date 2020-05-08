@@ -115,3 +115,16 @@ footer.content{
 }
 
 /* I know that these rules are a little basic but I actually kinda like the look of the website right now. It's simplistic but calming */
+/* Assignment 7 Start */
+@media (max-width:600px) {
+    body{
+        margin-left:5%;
+        margin-right:5%;
+        font-size:0.75em;
+    }
+}
+@media screen and (orientation: landscape) {
+    h1{
+        margin-right:25%;
+    }
+}

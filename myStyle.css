@@ -142,6 +142,14 @@ footer.content{
         width:15em;
     }
 }
+@media screen and (orientation: portrait) {
+    h1{
+        text-align:left;
+    }
+    div.Reagor{
+        text-align:center;
+    }
+}
 @media (min-width:601px) {
     h1,h2{
         text-align:center;

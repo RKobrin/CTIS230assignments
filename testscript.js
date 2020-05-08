@@ -42,4 +42,19 @@ function onButtonClick3() {
     thetext.style.color = "black";
     otheritem.style.color = "black";
 }
+//Assignment 7 Part 3 Work
+hurtsImage = document.getElementById("HurtsID");
+hurtsImage.addEventListener("click", imgSizeChange);
+function imgSizeChange() {
+    if (hurtsImage.style.width == "200px") {
+        hurtsImage.style.width = "400px";
+        hurtsImage.setAttribute("title", "Hurts playing in College (Click to Expand)")
+    }
+    else {
+        hurtsImage.style.width = "200px";
+        hurtsImage.setAttribute("title", "Hurts playing in College (Click to Shrink)" )
+    }
+}
+
+
 

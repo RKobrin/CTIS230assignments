@@ -122,6 +122,9 @@ footer.content{
         margin-right:5%;
         font-size:0.75em;
     }
+    h1,h2{
+        text-align:center;
+    }
 }
 @media screen and (orientation: landscape) {
     h1{

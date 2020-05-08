@@ -124,8 +124,17 @@ footer.content{
         margin-right:5%;
         font-size:0.75em;
     }
-    h1,h2{
+    h1{
+        width:fit-content;
         text-align:center;
+    }
+    h2{
+        margin-left:25%;
+        margin-right:25%;
+        text-align:center;
+    }
+    img#Reagor{
+        width:45%;
     }
 }
 @media screen and (orientation: landscape) {
